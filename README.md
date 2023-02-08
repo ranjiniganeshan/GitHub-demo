@@ -29,5 +29,10 @@ Run the code:
 ```
 python3 github.py
 ```
+## Install the required library
+```
+pip3 install pygithub
+pip3 install prettytable
+```
 
 
