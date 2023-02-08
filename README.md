@@ -9,7 +9,8 @@ Clone the repository:
 ```
 git clone [repository_url]
 ```
-Create a personal access token on GitHub:
+
+## Create a personal access token on GitHub:
 In the upper-right corner of any page, click your profile photo.
 Click Settings.
 In the left sidebar, click Developer settings.
@@ -17,10 +18,12 @@ In the left sidebar, click Personal access tokens.
 Click Generate new token.
 Give your token a descriptive name.
 
-Requirements
-This code requires a GitHub token.
-Python 3
-Running the Python Code
+## Requirements
+* This code requires a GitHub token.
+* Python 3 to be installed
+
+## Running the Python Code
+
 Install Python 3
 Run the code:
 ```
