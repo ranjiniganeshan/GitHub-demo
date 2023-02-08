@@ -20,12 +20,12 @@ for repo in g.get_organization(org).get_repos():
 	# repo1 = org.get_repos(repo.name)
 	for team in repo.get_teams():
 		print(team.name)
-		if team.name in ['myteam','myteam111']:
-			print("Cobalt team is added to repo")
+		if team.name in ['prod','qa, dev']:
+			print(team.name, "team is added to repo")
 		else:
-			print("Cobalt team is not added to repo,please add")
+			print(team.name, "team is not added to repo,please add")
 		for branch in repo.get_branches():
-			if not branch.name.startswith('CBLT'):
+			if not branch.name.startswith('Exlude'):
 				print(repo.name)
 				print("\t", branch.name)
 				b = repo.get_branch(branch.name)
